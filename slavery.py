@@ -1,7 +1,7 @@
 import sys , os , discord , subprocess , json , io , random  ,time ,numpy,glob,asyncio , mal
 from songdownloader import download_song
 
-botid = " rem "
+botid = #BOT ID REMOVED
 
 #file variables
 f = io.open("call.json", mode="r", encoding="utf-8")
@@ -26,7 +26,7 @@ statustxt = "Help me ☠"
 
 
 def system_call(command):
-    p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=True)
+    p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=False) #Set it True if you want full
     (output, err) = p.communicate()
     p_status = p.wait()
     return (output,err)

@@ -105,3 +105,4 @@ virtualenv==20.0.30
 wcwidth==0.2.5
 Werkzeug==0.14.1
 zipp==1.2.0
+spotdl==2.1.0
